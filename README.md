@@ -1,8 +1,12 @@
 # ManuelW77 Homebrew Tap
 
 ```sh
-brew install --cask manuelw77/tap/schnittwerk
+brew tap manuelw77/tap
+brew trust manuelw77/tap
+brew install --cask schnittwerk
 ```
+
+Homebrew only loads casks from taps you trust, hence `brew trust`.
 
 | Cask | Description |
 | --- | --- |
